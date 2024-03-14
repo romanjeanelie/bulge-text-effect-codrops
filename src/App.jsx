@@ -82,7 +82,7 @@ function App() {
       <Leva
         collapsed={false}
         flat={true}
-        // hidden
+        hidden
         theme={{
           sizes: {
             titleBarHeight: "28px",
