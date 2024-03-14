@@ -1,20 +1,16 @@
-# Emerging WebGL Image Effects
+# Creating a 3D Bump Text Effect with React Three Fiber
 
-Some ideas for WebGL image effects where images emerge/appear.
+Exploring how to generate a captivating bump effect on text using React Three Fiber.
 
-![Emerging WebGL Image Effects](https://tympanus.net/codrops/wp-content/uploads/2024/02/revealwebgl.gif)
+<!-- ![Emerging WebGL Image Effects](https://tympanus.net/codrops/wp-content/uploads/2024/02/revealwebgl.gif)
 
 [Article on Codrops](https://tympanus.net/codrops/?p=75561)
 
-[Demo](http://tympanus.net/Development/RevealingWebGLImages/)
+[Demo](http://tympanus.net/Development/RevealingWebGLImages/) -->
 
 ## Installation
 
 Run this demo on a [local server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server).
-
-## Credits
-
-- Images generated with [Midjourney](https://midjourney.com)
 
 ## Misc
 
