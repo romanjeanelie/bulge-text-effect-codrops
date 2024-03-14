@@ -10,10 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@gsap/react": "^2.1.0",
     "@react-three/drei": "^9.96.4",
     "@react-three/fiber": "^8.15.15",
-    "@studio-freight/lenis": "^1.0.34",
     "html2canvas": "^1.4.1",
     "leva": "^0.9.35",
     "lodash": "^4.17.21",
@@ -21,7 +19,6 @@
     "react-dom": "^18.2.0",
     "three": "^0.162.0",
     "three-custom-shader-material": "^5.4.0",
-    "usehooks-ts": "^2.10.0",
     "vite-plugin-glsl": "^1.2.1"
   },
   "devDependencies": {

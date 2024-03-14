@@ -1,11 +1,9 @@
 import "./App.css";
 import Scene from "./Scene";
-import { useState } from "react";
-import { useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Leva } from "leva";
 
-function Main() {
+function Title3D() {
   return (
     <div className="absolute top-0 left-0 h-screen w-screen">
       <Canvas
@@ -31,7 +29,7 @@ function HeaderComponent() {
     <header className="relative z-50 mx-7 flex max-lg:flex-col justify-between py-6 border-b border-white/60 pointer-events-auto">
       <div className="whitespace-nowrap">
         <h1 className="font-bold inline align-middle mr-2">Bump Text Effect</h1>
-        <a title="Read the article" href="https://tympanus.net/codrops/?p=75188">
+        <a title="Read the article" href="#">
           <svg
             className="h-3 ml-0.5 inline-block align-middle"
             viewBox="0 0 12 12"
@@ -58,13 +56,22 @@ function Credits() {
         Made by <a href="https://twitter.com/romanjeanelie">@romanjeanelie</a> for{" "}
         <a href="https://twitter.com/codrops">@codrops</a>
       </p>
-      <a
-        href="https://tympanus.net/Tutorials/Velvette/"
-        //   className="max-lg:hidden absolute z-50 bottom-7 right-7 pointer-events-auto"
-        className="all-demos"
-      >
-        Previous Demo
+      <a href="https://tympanus.net/codrops/" className="all-demos">
+        All Demos
       </a>
+    </div>
+  );
+}
+
+function Aside() {
+  return (
+    <div className="absolute top-1/2 right-16 text-lg">
+      <p className="mb-4 opacity-50">TENDER</p>
+      <p>
+        App that helps <br />
+        to find your best partner
+      </p>
+      <p className="mt-40 opacity-50">LAUNCH IN 2024</p>
     </div>
   );
 }
@@ -85,9 +92,10 @@ function App() {
           },
         }}
       />
-      <main>
+      <main className="font-sans">
         <HeaderComponent />
-        <Main />
+        <Title3D />
+        <Aside />
         <Credits />
       </main>
     </>

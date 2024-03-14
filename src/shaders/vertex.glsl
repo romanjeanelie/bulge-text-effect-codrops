@@ -2,8 +2,6 @@ uniform float time;
 uniform vec2 uMouse;
 
 varying vec2 vUv;
-varying vec3 vNormal;
-varying vec3 vPosition;
 
 float circle(vec2 uv, vec2 circlePosition, float radius) {
 	float dist = distance(circlePosition, uv);
@@ -21,6 +19,4 @@ void main() {
 
 	csm_Position = newPosition;
 	vUv = uv;
-	vNormal = normal;
-	vPosition = position;
 }
