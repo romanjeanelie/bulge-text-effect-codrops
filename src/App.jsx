@@ -28,8 +28,8 @@ function HeaderComponent() {
   return (
     <header className="relative z-50 mx-7 flex max-lg:flex-col justify-between py-6 border-b border-white/60 pointer-events-auto">
       <div className="whitespace-nowrap">
-        <h1 className="font-bold inline align-middle mr-2">Bump Text Effect</h1>
-        <a title="Read the article" href="#">
+        <h1 className="font-bold inline align-middle mr-2">Bulge Text Effect</h1>
+        <a title="Read the article" href="https://tympanus.net/codrops/?p=76625">
           <svg
             className="h-3 ml-0.5 inline-block align-middle"
             viewBox="0 0 12 12"
@@ -56,7 +56,7 @@ function Credits() {
         Made by <a href="https://twitter.com/romanjeanelie">@romanjeanelie</a> for{" "}
         <a href="https://twitter.com/codrops">@codrops</a>
       </p>
-      <a href="https://tympanus.net/codrops/" className="all-demos">
+      <a href="https://tympanus.net/codrops/demos" className="all-demos">
         All Demos
       </a>
     </div>

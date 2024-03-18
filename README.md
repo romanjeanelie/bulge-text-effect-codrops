@@ -1,16 +1,32 @@
-# Creating a 3D Bump Text Effect with React Three Fiber
+# Creating a 3D Bulge Text Effect with React Three Fiber
 
-Exploring how to generate a captivating bump effect on text using React Three Fiber.
+Exploring how to generate an engaging bulge effect on text using React Three Fiber.
 
-<!-- ![Emerging WebGL Image Effects](https://tympanus.net/codrops/wp-content/uploads/2024/02/revealwebgl.gif)
+![Bulge Text](https://tympanus.net/codrops/wp-content/uploads/2024/03/cover.gif)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=75561)
+[Article on Codrops](https://tympanus.net/codrops/?p=76625)
 
-[Demo](http://tympanus.net/Development/RevealingWebGLImages/) -->
+[Demo](http://tympanus.net/Tutorials/3DBulgeTextEffect/)
 
 ## Installation
 
-Run this demo on a [local server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server).
+Install dependencies:
+
+```
+npm install
+```
+
+Compile the code for development and start a local server:
+
+```
+npm run dev
+```
+
+Create the build:
+
+```
+npm run build
+```
 
 ## Misc
 
